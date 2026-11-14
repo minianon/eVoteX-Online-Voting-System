@@ -63,4 +63,4 @@ flowchart TB
 
 ## 5. Notes
 
-Voter passwords are kept in plain text in memory, the admin password file name is `Password.txt` in code (check the case matches the file in the repo), and `system("cls")` is Windows-only.
+Voter passwords are kept in plain text in memory, the code opens `Password.txt` while the file in the repo is `password.txt` (fails on case-sensitive systems like Linux), and `system("cls")` is Windows-only.
